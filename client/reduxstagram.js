@@ -6,4 +6,4 @@ import Main from './components/Main';
 // import css
 import css from './styles/style.styl';
 
-render(<Main />, document.getElementById('root'));
+render(<Main><p>Hello</p></Main>, document.getElementById('root'));
